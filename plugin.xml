@@ -53,7 +53,7 @@
                     android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                     android:value="barcode" />
 
-            <activity android:screenOrientation="portrait" android:label="@string/title_activity_main" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.SecondaryActivity"/>
+            <activity android:screenOrientation="portrait" android:label="Scanner" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.SecondaryActivity"/>
             <activity android:screenOrientation="portrait" android:label="Read Barcode" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.BarcodeCaptureActivity" android:theme="@style/Theme.AppCompat.Light"/>
         </config-file>
 
@@ -68,7 +68,7 @@
                     android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                     android:value="barcode" />
 
-            <activity android:screenOrientation="portrait" android:label="@string/title_activity_main" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.SecondaryActivity"/>
+            <activity android:screenOrientation="portrait" android:label="Scanner" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.SecondaryActivity"/>
             <activity android:screenOrientation="portrait" android:label="Read Barcode" android:name="tl.cordova.plugin.firebase.mlkit.barcode.scanner.BarcodeCaptureActivity" android:theme="@style/Theme.AppCompat.Light"/>
         </config-file>
 
